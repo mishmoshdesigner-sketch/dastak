@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="Dastak helps you know a home before you buy it." />
+    <title>Dastak — Know before you buy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <main class="phone-shell">
+      <header class="status-bar" aria-label="Device status"><span>9:41</span><div class="status-icons"><i class="signal"></i><i class="wifi"></i><i class="battery"></i></div></header>
+      <section class="hero" aria-labelledby="page-title">
+        <a class="brand" href="#top" aria-label="Dastak home"><span class="brand-mark"><i></i></span><span>Dastak</span></a>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 410 300" role="img" xmlns="http://www.w3.org/2000/svg">
+            <path d="M52 267h302" stroke="#0b2943" stroke-width="2" stroke-linecap="round"/>
+            <path d="M129 264c-18-25-9-50 6-46 6-17 24-13 23 10 9-12 25 2 15 29l-2 7zM253 264c-15-20-6-39 7-36 2-18 20-18 21 2 10-13 26 1 19 27l-2 7z" fill="#fff" stroke="#749869" stroke-width="1"/>
+            <path d="M183 262V172l57-60 69 60v90z" fill="#ffca38" stroke="#0b2943" stroke-width="2"/>
+            <path d="M171 174l69-70 83 67v7h-152z" fill="#ff512e" stroke="#0b2943" stroke-width="2"/>
+            <path d="m223 112 73 61M244 108l70 59M265 120l55 47" stroke="#ffb1a0" stroke-width="1"/>
+            <path d="M201 262v-53h37v53" fill="#ff5f30" stroke="#0b2943" stroke-width="1.5"/><circle cx="230" cy="235" r="2" fill="#ffe58b"/>
+            <rect x="255" y="188" width="47" height="55" fill="#e8f2ff" stroke="#0b2943"/><path d="M278 188v55M255 215h47" stroke="#7596ca"/>
+            <circle cx="211" cy="159" r="13" fill="#fff9d6"/><path d="M211 146v26M198 159h26" stroke="#f2bf20"/>
+            <path d="M151 265c-18 0-29-4-27-19 1-10 8-15 14-11-2-20 17-25 20-1 6-13 23-5 20 11-3 10-13 20-27 20z" fill="#79ab5b"/>
+            <path d="M317 265c-18 0-31-8-26-22 4-10 10-11 15-8-2-19 18-26 23-3 9-9 21 1 18 15-3 12-14 18-30 18z" fill="#6b9d55"/>
+            <g transform="translate(96 50)"><circle cx="37" cy="23" r="14" fill="#f5aa94" stroke="#071b2e"/><path d="M23 25c-2-23 32-30 35-2-9-8-17-9-21 0-3-6-9-4-14 2" fill="#101825"/><path d="M17 53c6-17 35-19 46-1l4 64H20z" fill="#ff552f" stroke="#071b2e"/><path d="M21 61C-2 75 0 93 11 97l21-16" fill="#f6abc2" stroke="#071b2e"/><path d="M20 116h22l-3 72H16zM42 116h23l9 72H49z" fill="#355dbe" stroke="#071b2e"/><path d="M49 49c6 15 16 17 24 7" fill="none" stroke="#f6aa92" stroke-width="8" stroke-linecap="round"/></g>
+            <g transform="translate(238 47)"><circle cx="33" cy="22" r="13" fill="#f5aa94" stroke="#071b2e"/><path d="M20 21c-3-16 23-30 29-8-8-6-17-1-21 8z" fill="#ee9bb6"/><path d="M12 49c6-13 33-17 49 4l11 71H11z" fill="#111922" stroke="#071b2e"/><path d="M57 61c21 9 21 20 15 37" fill="none" stroke="#f5aa94" stroke-width="10" stroke-linecap="round"/><path d="M13 119h21l-4 74H11zM34 119h27l11 74H47z" fill="#111922"/><circle cx="3" cy="77" r="25" fill="#e7edff" stroke="#5482d3" stroke-width="5"/><path d="M20 94 35 111" stroke="#5482d3" stroke-width="6"/></g>
+          </svg>
+        </div>
+      </section>
+      <section class="intro" id="top">
+        <h1 id="page-title">Know before you buy</h1>
+        <p>Before you take the first step towards your new home, let’s make sure it’s the right one.</p>
+        <form class="search" id="project-search"><label class="sr-only" for="project">Project name</label><input id="project" type="search" placeholder="Enter project name to start" autocomplete="off"/><button type="submit" aria-label="Search project">→</button></form>
+        <div class="suggestions" aria-label="Suggested projects"><button type="button">Prestige Lakeside <b>↗</b></button><button type="button">DNR Varista <b>↗</b></button><button type="button">Sri Balaji Vaibhav <b>↗</b></button></div>
+      </section>
+      <section class="services" aria-labelledby="services-heading">
+        <h2 id="services-heading">Popular services in your area</h2>
+        <div class="service-list"><a class="service-card" href="#check"><span class="service-icon check">✓</span><span><strong>Dastak check</strong><small>Your property’s due-diligence check</small></span><b>→</b></a><a class="service-card" href="#legal"><span class="service-icon legal">⌁</span><span><strong>Dastak legal</strong><small>Legal services to assist you in property buy</small></span><b>→</b></a></div>
+      </section>
+      <nav class="bottom-nav" aria-label="Primary"><a class="active" href="#top"><span class="nav-icon explore">◆</span>Explore</a><a href="#services"><span class="nav-icon grid">▦</span>Services</a><a href="#profile"><span class="nav-icon profile">●</span>Profile</a></nav>
+    </main>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="src/main.js"></script>
+  </body>
+</html>
